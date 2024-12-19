@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<site serverAutoStart="true" id="2" name="www.fittersnacker.com">
+    <bindings>
+        <binding bindingInformation="*:80:www.fittersnacker.com" protocol="http" />
+    </bindings>
+    <logFile>
+        <customFields></customFields>
+    </logFile>
+    <traceFailedRequestsLogging />
+    <applicationDefaults />
+    <virtualDirectoryDefaults />
+    <ftpServer>
+        <connections />
+        <security>
+            <dataChannelSecurity />
+            <commandFiltering />
+            <ssl />
+            <sslClientCertificates />
+            <authentication>
+                <anonymousAuthentication />
+                <basicAuthentication />
+                <clientCertAuthentication />
+                <customAuthentication>
+                    <providers></providers>
+                </customAuthentication>
+            </authentication>
+            <customAuthorization>
+                <provider></provider>
+            </customAuthorization>
+        </security>
+        <customFeatures>
+            <providers></providers>
+        </customFeatures>
+        <messages />
+        <fileHandling />
+        <firewallSupport />
+        <userIsolation>
+            <activeDirectory />
+        </userIsolation>
+        <directoryBrowse />
+        <logFile />
+    </ftpServer>
+    <application applicationPool="www.fittersnacker.com" path="/">
+        <virtualDirectoryDefaults />
+        <virtualDirectory path="/" physicalPath="C:\inetpub\fittersnacker" />
+    </application>
+</site>

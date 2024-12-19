@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitter Snacker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #008CBA; /* Enhanced interactive color */
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem; /* Largest text for the main header */
+      margin: 0;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2.5rem;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #005f73; /* Enhanced footer color */
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .hero {
+      background: #e9f5fc; /* Subtle background for the hero section */
+      padding: 3rem;
+    }
+    #about .executives div {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+    #products .product {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+    }
+    form button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #3e8e41;
+    }
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fitter Snacker</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <h2>Welcome to Fitter Snacker</h2>
+      <p>Your source for nutritious and delicious snack bars!</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Fitter Snacker is a BC-based company specializing in healthy snack bars. We manufacture and sell two signature bars:</p>
+      <ul style="list-style: none; padding: 0; margin: 20px 0;">
+        <li><strong>NRG-A:</strong> Advanced Energy for an active lifestyle.</li>
+        <li><strong>NRG-B:</strong> Body-Building Proteins for strength and recovery.</li>
+      </ul>
+      <p>Our executive team includes:</p>
+      <div class="flex-container executives">
+        <div>
+          <strong>Arnold Terminator</strong><br>
+          <em>CEO</em><br>
+          Over 20 years of leadership experience in the food industry, driving innovation and growth.
+        </div>
+        <div>
+          <strong>Donald Dollars</strong><br>
+          <em>CFO</em><br>
+          Expert in financial management, having overseen budgets exceeding $100 million.
+        </div>
+        <div>
+          <strong>Norman Geekly</strong><br>
+          <em>CIO</em><br>
+          Tech enthusiast with 15+ years of IT solutions experience enhancing productivity.
+        </div>
+        <div>
+          <strong>Joe Smoothie</strong><br>
+          <em>CMO</em><br>
+          Marketing visionary with 12 years of experience building brands and driving engagement.
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+      <h2>Our Products</h2>
+      <p>Explore our range of nutritious and delicious snack bars:</p>
+      <div class="flex-container">
+        <div class="product">
+          <h3>NRG-A</h3>
+          <p>Provides advanced energy for peak performance. Perfect for athletes and busy professionals.</p>
+        </div>
+        <div class="product">
+          <h3>NRG-B</h3>
+          <p>Packed with proteins for muscle recovery and growth. Ideal for gym enthusiasts.</p>
+        </div>
+        <div class="product">
+          <h3>NRG-C</h3>
+          <p>A balanced mix of nutrients and fibers, designed to keep you energized throughout the day.</p>
+        </div>
+        <div class="product">
+          <h3>NRG-D</h3>
+          <p>Low-calorie snack bar with natural ingredients for those looking to maintain a healthy diet.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="flex-container">
+        <div style="width: 45%; text-align: left;">
+          <p>We'd love to hear from you! Please use the form below or visit our offices:</p>
+          <p><strong>Richmond Office:</strong> IT and SCM Headquarters</p>
+          <p><strong>Surrey Office:</strong> A/F, HR, Marketing, and Sales Departments</p>
+        </div>
+        <form action="#" method="POST" style="width: 45%;">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Fitter Snacker. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

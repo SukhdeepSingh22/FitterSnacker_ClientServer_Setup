@@ -97,7 +97,7 @@ The overall organization structure is as follows:
 - A senior manager oversees each major functional group.
 - A manager oversees subordinate functional areas, if they exist.
 - In total, there are 37 people in Fitter Snacker.
-![](img/fitter_snacker_organization_chart.png)
+![](Documentation/img/fitter_snacker_organization_chart.png)
 ---
 
 ### **Current State and Expansion Plans**
@@ -197,105 +197,105 @@ The overall organization structure is as follows:
 All screenshots are available in the `img` directory, named sequentially. Below are descriptions of each:
 
 1. **VirtualBox Host-Only DHCP Server Settings**
-   - ![](img/1.png)
+   - ![](Documentation/img/1.png)
    - Shows the Host-Only Network with the network address `192.168.1.1/24` and DHCP disabled.
 
 2. **Server VM#1 Hardware Settings**
-   - ![](img/2.png)
+   - ![](Documentation/img/2.png)
    - Shows fsserver1 hardware settings (memory, processor, disk) in VirtualBox.
 
 3. **Server VM#1 Login Screen**
-   - ![](img/3.png)
+   - ![](Documentation/img/3.png)
    - Shows the login screen of fsserver1 with NetBIOS name `FITTER\Administrator` and password prompt.
 
 4. **Server VM#2 Hardware Settings**
-   - ![](img/4.png)
+   - ![](Documentation/img/4.png)
    - Shows fsserver2 hardware settings in VirtualBox.
 
 5. **Server VM#2 Join Domain**
-   - ![](img/5.png)
+   - ![](Documentation/img/5.png)
    - Shows the login screen of fsserver2 after joining the corp.fittersnacker.com domain.
 
 6. **Verification of Ping and Network Visibility**
-   - ![](img/6.png)
+   - ![](Documentation/img/6.png)
    - Shows a successful ping from fsserver2 to fsserver1 and visibility of both servers in File Explorer → Network.
 
 7. **DHCP Scope in Server Manager (fsserver1)**
-   - ![](img/7.png)
+   - ![](Documentation/img/7.png)
    - Shows the DHCP scope configuration on fsserver1 with host IDs 180–200.
 
 8. **DHCP Scope Verification (fsserver2)**
-   - ![](img/8.png)
+   - ![](Documentation/img/8.png)
    - Shows the DHCP scope on fsserver2 created from fsserver1.
 
 9. **Client VM IP Address Verification**
-   - ![](img/9.png)
+   - ![](Documentation/img/9.png)
    - Shows the ipconfig /all output on fsclient1 with the DHCP-assigned IP address and correct DNS/DHCP configurations.
 
 10. **DNS Configuration Verification**
-    - ![](img/10.png)
+    - ![](Documentation/img/10.png)
     - Shows the nslookup results on fsserver2 for both forward and reverse lookups.
 
 11. **List of Users in AD**
-    - ![](img/11.1.png)
-    - ![](img/11.2.png)
+    - ![](Documentation/img/11.1.png)
+    - ![](Documentation/img/11.2.png)
     - Shows all 37 users created in Active Directory, sorted by the "Type" column.
 
 12. **Domain Admin Group Members**
-    - ![](img/12.png)
+    - ![](Documentation/img/12.png)
     - Shows the members of the Domain Admins group.
 
 13. **List of Organizational Units (OUs)**
-    - ![](img/13.png)
+    - ![](Documentation/img/13.png)
     - Shows the complete OU structure as described (e.g., Worldwide, North America, Canada).
 
 14. **Security Groups**
-    - ![](img/14.1.png)
-    - ![](img/14.2.png)
+    - ![](Documentation/img/14.1.png)
+    - ![](Documentation/img/14.2.png)
     - Shows all security groups (fs_Executive, fs_Manufacturing, etc.) created in AD.
 
 15. **Manufacturing Group Members**
-    - ![](img/15.png)
+    - ![](Documentation/img/15.png)
     - Shows the members of the fs_Manufacturing security group.
 
 16. **SD Access Group Members**
-    - ![](img/16.png)
+    - ![](Documentation/img/16.png)
     - Shows the members of the fs_SDAccess domain local group.
 
 17. **File Share Access (CEO)**
-    - ![](img/17.png)
+    - ![](Documentation/img/17.png)
     - Shows Arnold Terminator accessing the IT share.
 
 18. **File Share Access (IT Manager)**
-    - ![](img/18.png)
+    - ![](Documentation/img/18.png)
     - Shows Billy Kidd accessing the IT share.
 
 19. **File Share Access (Manufacturing Employee)**
-    - ![](img/19.png)
+    - ![](Documentation/img/19.png)
     - Shows Alvin Smith accessing the SCM share.
 
 20. **Group Policy Overview**
-    - ![](img/20.png)
+    - ![](Documentation/img/20.png)
     - Shows the Remove Task Manager Group Policy Object applied to fs_Executive.
 
 21. **CEO Task Manager Disabled**
-    - ![](img/21.png)
+    - ![](Documentation/img/21.png)
     - Shows Arnold Terminator attempting to open Task Manager and receiving the error message.
 
 22. **IT Manager Task Manager Enabled**
-    - ![](img/22.png)
+    - ![](Documentation/img/22.png)
     - Shows Billy Kidd successfully running Task Manager.
 
 23. **Print Management Console**
-    - ![](img/23.1.png)
-    - ![](img/23.2.png)
+    - ![](Documentation/img/23.1.png)
+    - ![](Documentation/img/23.2.png)
     - Shows the Executive Printer, AF Printer, and Common Printer added in Print Management on fsserver2.
 
 24. **Fitter Snacker Website**
-    - ![](img/24.1.png)
-    - ![](img/24.2.png)
-    - ![](img/24.3.png)
-    - ![](img/24.4.png)
+    - ![](Documentation/img/24.1.png)
+    - ![](Documentation/img/24.2.png)
+    - ![](Documentation/img/24.3.png)
+    - ![](Documentation/img/24.4.png)
     - Shows the Fitter Snacker homepage accessed via Internet Explorer on fsserver2.
 
 

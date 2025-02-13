@@ -1,4 +1,4 @@
-# Client and Server Setup for Fitter Snacker
+# Project FitterSnacker: A Virtual Enterprise Network Implementation 
 
 ### **Introduction**
 
